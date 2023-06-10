@@ -1,0 +1,35 @@
+Domain:_______Quad
+Obstacle:_____Spitze
+Force:________Constant20
+Material:_____steel
+Law:__________Neo Hooke
+Contact Type__:linear
+Meshlevel:____2
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:6.9156 | residuum neu:1.1607 | residuum LGS:2.2286e-15
+Newtoniteration:1 | alpha:1
+Force residuum:1.1607 | Contact residuum:2.1845e-18
+--------------
+residuum alt:1.1607 | residuum neu:0.065223 | residuum LGS:3.2989e-16
+Newtoniteration:2 | alpha:1
+Force residuum:0.065223 | Contact residuum:6.7427e-18
+--------------
+residuum alt:0.065223 | residuum neu:0.00027206 | residuum LGS:2.0608e-17
+Newtoniteration:3 | alpha:1
+Force residuum:0.00027206 | Contact residuum:3.014e-18
+--------------
+residuum alt:0.00027206 | residuum neu:6.3185e-09 | residuum LGS:9.6176e-20
+Newtoniteration:4 | alpha:1
+Force residuum:6.3185e-09 | Contact residuum:5.6731e-18
+--------------
+residuum alt:6.3185e-09 | residuum neu:1.2247e-14 | residuum LGS:2.186e-24
+Newtoniteration:5 | alpha:1
+Force residuum:1.2247e-14 | Contact residuum:3.7497e-18
+--------------
+RHS < TOL after5 Newton Iterations
+Done with solving
+Simulation Done
+=========================================

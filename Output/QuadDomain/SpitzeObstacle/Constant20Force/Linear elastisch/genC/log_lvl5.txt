@@ -1,0 +1,21 @@
+Domain:____Quad
+Obstacle:__Spitze
+Force:_____Constant20
+Material:__steel
+Law:_______Linear elastisch
+Meshlevel:_5
+Contact linear:0
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:1.4825 | residuum neu:0.90981 | residuum LGS:2.2121e-14
+Newtoniteration:1 | alpha:1
+Force residuum:6.4606e-14 | Contact residuum:0.90981
+--------------
+residuum alt:0.90981 | residuum neu:1.0363e-13 | residuum LGS:8.1608e-14
+Newtoniteration:2 | alpha:1
+Force residuum:1.0363e-13 | Contact residuum:2.602e-18
+--------------
+RHS < TOL after2 Newton Iterations
+Done with solving

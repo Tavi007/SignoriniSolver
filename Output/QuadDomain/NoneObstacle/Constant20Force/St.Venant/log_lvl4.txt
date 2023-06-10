@@ -1,0 +1,29 @@
+Domain:____Quad
+Obstacle:__None
+Force:_____Constant20
+Material:__steel
+Law:_______St.Venant
+Meshlevel:_4
+Contact linear:1
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:1.0459 | residuum neu:0.025931 | residuum LGS:3.2426e-16
+Newtoniteration:1 | alpha:1
+Force residuum:0.025931 | Contact residuum:0
+--------------
+residuum alt:0.025931 | residuum neu:0.00015858 | residuum LGS:4.7677e-17
+Newtoniteration:2 | alpha:1
+Force residuum:0.00015858 | Contact residuum:0
+--------------
+residuum alt:0.00015858 | residuum neu:9.7365e-09 | residuum LGS:9.1707e-20
+Newtoniteration:3 | alpha:1
+Force residuum:9.7365e-09 | Contact residuum:0
+--------------
+residuum alt:9.7365e-09 | residuum neu:3.6318e-14 | residuum LGS:2.8255e-24
+Newtoniteration:4 | alpha:1
+Force residuum:3.6318e-14 | Contact residuum:0
+--------------
+RHS < TOL after4 Newton Iterations
+Done with solving

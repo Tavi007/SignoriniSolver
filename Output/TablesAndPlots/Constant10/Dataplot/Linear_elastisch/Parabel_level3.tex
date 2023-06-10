@@ -1,0 +1,45 @@
+\begin{figure}[h] 
+\centering 
+\begin{tikzpicture}[every plot/.append style={thick}] 
+\begin{axis}[ 
+label style={font=\normalsize}, 
+xlabel={Newton-Iteration}, 
+ylabel={Residuum}, 
+xmin=0, xmax=3, 
+ymode=log, 
+ymin=0, ymax=10, 
+width=0.8\textwidth, 
+height=0.6\textwidth, 
+legend pos=north east, 
+legend style={cells={align=left}}, 
+grid style=dashed, 
+] 
+\addplot[ 
+color=cyan, 
+] 
+coordinates { 
+(0, 9.74e-01)(1, 8.74e-15)}; 
+\addlegendentry{Verformung (linear)} 
+\addplot[ 
+color=orange, 
+] 
+coordinates { 
+(0, 8.24e-01)(1, 2.69e-18)}; 
+\addlegendentry{NCP (linear)} 
+\addplot[ 
+color=blue, 
+] 
+coordinates { 
+(0, 9.74e-01)(1, 1.45e-04)(2, 3.84e-11)}; 
+\addlegendentry{Verformung (general)} 
+\addplot[ 
+color=red, 
+] 
+coordinates { 
+(0, 8.24e-01)(1, 9.83e-08)(2, 3.23e-13)}; 
+\addlegendentry{NCP (general)} 
+\end{axis} 
+\end{tikzpicture} 
+\caption{Residuen des Stoffgesetzes 'Linear elastisch' mit Hinderniss 'Parabel' und 578 Freiheitsgraden für die Verschiebung.} 
+\label{fiq:Linearelastisch_Parabel_level3} 
+\end{figure} 

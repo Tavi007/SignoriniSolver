@@ -1,0 +1,31 @@
+Domain:_______Rechteck
+Obstacle:_____Special
+Force:________Special
+Material:_____steel
+Law:__________Linear elastisch
+Contact Type__:linear normiert
+Meshlevel:____5
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:0.89184 | residuum neu:2.8549e-05 | residuum LGS:2.392e-15
+Newtoniteration:1 | alpha:1
+Force residuum:4.7662e-15 | Contact residuum:2.8549e-05
+--------------
+
+>> warning: load_path: Assembly: No such file or directory
+warning: load-path: update failed for 'Assembly', removing from path
+warning: load_path: Material: No such file or directory
+warning: load-path: update failed for 'Material', removing from path
+warning: load_path: Material/Tools: No such file or directory
+warning: load-path: update failed for 'Material/Tools', removing from path
+warning: load_path: MathTools: No such file or directory
+warning: load-path: update failed for 'MathTools', removing from path
+warning: load_path: Mesh: No such file or directory
+warning: load-path: update failed for 'Mesh', removing from path
+warning: load_path: Problem: No such file or directory
+warning: load-path: update failed for 'Problem', removing from path
+warning: load_path: Solver: No such file or directory
+warning: load-path: update failed for 'Solver', removing from path
+Signorini

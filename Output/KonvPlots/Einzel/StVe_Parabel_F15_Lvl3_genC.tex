@@ -1,0 +1,23 @@
+\begin{tikzpicture}[every plot/.append style={thick}] 
+\begin{axis}[ 
+label style={font=\normalsize}, 
+xlabel={Newton-Iteration}, 
+ylabel={Residuum}, 
+xmin=0, xmax=7, 
+ymode=log, 
+ymin=0, ymax=10, 
+width=0.9\textwidth, 
+grid style=dashed, 
+] 
+\addplot[ 
+color=blue, 
+] 
+coordinates { 
+(0, 1.13e+00)(1, 8.50e-01)(2, 5.76e-02)(3, 4.44e-03)(4, 2.14e-04)(5, 6.72e-07)(6, 6.65e-12)}; 
+\addplot[ 
+color=red, 
+] 
+coordinates { 
+(0, 3.12e-01)(1, 5.72e-01)(2, 1.35e-06)(3, 1.39e-07)(4, 8.35e-09)(5, 2.62e-11)(6, 2.57e-16)}; 
+\end{axis} 
+\end{tikzpicture} 

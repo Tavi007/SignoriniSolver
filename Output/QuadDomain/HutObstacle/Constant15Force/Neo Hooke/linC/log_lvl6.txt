@@ -1,0 +1,37 @@
+Domain:____Quad
+Obstacle:__Hut
+Force:_____Constant15
+Material:__steel
+Law:_______Neo Hooke
+Meshlevel:_6
+Contact linear:1
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:4.8363 | residuum neu:0.38597 | residuum LGS:6.8743e-16
+Newtoniteration:1 | alpha:1
+Force residuum:0.38597 | Contact residuum:1.677e-20
+--------------
+residuum alt:0.38597 | residuum neu:0.10885 | residuum LGS:1.0869e-15
+Newtoniteration:2 | alpha:1
+Force residuum:0.10885 | Contact residuum:6.1665e-20
+--------------
+residuum alt:0.10885 | residuum neu:0.0044008 | residuum LGS:1.1231e-16
+Newtoniteration:3 | alpha:1
+Force residuum:0.0044008 | Contact residuum:2.2169e-20
+--------------
+residuum alt:0.0044008 | residuum neu:3.2078e-05 | residuum LGS:7.9629e-18
+Newtoniteration:4 | alpha:1
+Force residuum:3.2078e-05 | Contact residuum:4.1539e-20
+--------------
+residuum alt:3.2078e-05 | residuum neu:7.834e-10 | residuum LGS:9.5791e-21
+Newtoniteration:5 | alpha:1
+Force residuum:7.834e-10 | Contact residuum:4.025e-20
+--------------
+residuum alt:7.834e-10 | residuum neu:6.997e-14 | residuum LGS:1.5517e-24
+Newtoniteration:6 | alpha:1
+Force residuum:6.997e-14 | Contact residuum:8.7437e-20
+--------------
+RHS < TOL after6 Newton Iterations
+Done with solving

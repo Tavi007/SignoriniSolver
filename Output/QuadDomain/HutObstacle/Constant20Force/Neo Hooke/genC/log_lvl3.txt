@@ -1,0 +1,45 @@
+Domain:____Quad
+Obstacle:__Hut
+Force:_____Constant20
+Material:__steel
+Law:_______Neo Hooke
+Meshlevel:_3
+Contact linear:0
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:4.235 | residuum neu:3.9826 | residuum LGS:1.5269e-14
+Newtoniteration:1 | alpha:0.0625
+Force residuum:2.8002 | Contact residuum:2.8319
+--------------
+residuum alt:3.9826 | residuum neu:3.9378 | residuum LGS:1.3638e-14
+Newtoniteration:2 | alpha:0.015625
+Force residuum:2.7571 | Contact residuum:2.8116
+--------------
+residuum alt:3.9378 | residuum neu:1.212 | residuum LGS:2.8606e-15
+Newtoniteration:3 | alpha:1
+Force residuum:1.212 | Contact residuum:2.222e-18
+--------------
+residuum alt:1.212 | residuum neu:0.98515 | residuum LGS:2.9461e-16
+Newtoniteration:4 | alpha:0.5
+Force residuum:0.63679 | Contact residuum:0.75168
+--------------
+residuum alt:0.98515 | residuum neu:0.049368 | residuum LGS:2.4095e-16
+Newtoniteration:5 | alpha:1
+Force residuum:0.049368 | Contact residuum:6.1339e-19
+--------------
+residuum alt:0.049368 | residuum neu:0.0003804 | residuum LGS:1.4838e-17
+Newtoniteration:6 | alpha:1
+Force residuum:0.0003804 | Contact residuum:1.1246e-18
+--------------
+residuum alt:0.0003804 | residuum neu:2.4458e-08 | residuum LGS:1.0258e-19
+Newtoniteration:7 | alpha:1
+Force residuum:2.4458e-08 | Contact residuum:9.7386e-19
+--------------
+residuum alt:2.4458e-08 | residuum neu:1.1069e-14 | residuum LGS:7.9225e-24
+Newtoniteration:8 | alpha:1
+Force residuum:1.1069e-14 | Contact residuum:1.0369e-18
+--------------
+RHS < TOL after8 Newton Iterations
+Done with solving

@@ -1,0 +1,56 @@
+Domain:____Quad
+Obstacle:__Spitze
+Force:_____Constant10
+Material:__steel
+Law:_______St.Venant
+Meshlevel:_6
+Contact linear:1
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:0.69792 | residuum neu:0.61078 | residuum LGS:1.4794e-15
+Newtoniteration:1 | alpha:0.125
+Force residuum:0.25094 | Contact residuum:0.55686
+--------------
+residuum alt:0.61078 | residuum neu:0.60538 | residuum LGS:6.8083e-15
+Newtoniteration:2 | alpha:0.015625
+Force residuum:0.24751 | Contact residuum:0.55247
+--------------
+residuum alt:0.60538 | residuum neu:0.57618 | residuum LGS:7.0445e-15
+Newtoniteration:3 | alpha:0.0625
+Force residuum:0.25241 | Contact residuum:0.51794
+--------------
+residuum alt:0.57618 | residuum neu:0.56956 | residuum LGS:8.5904e-15
+Newtoniteration:4 | alpha:0.015625
+Force residuum:0.25388 | Contact residuum:0.50985
+--------------
+residuum alt:0.56956 | residuum neu:0.56037 | residuum LGS:1.0274e-14
+Newtoniteration:5 | alpha:0.03125
+Force residuum:0.26468 | Contact residuum:0.49392
+--------------
+residuum alt:0.56037 | residuum neu:0.55265 | residuum LGS:1.8665e-14
+Newtoniteration:6 | alpha:0.015625
+Force residuum:0.26274 | Contact residuum:0.4862
+--------------
+residuum alt:0.55265 | residuum neu:0.54712 | residuum LGS:2.1992e-14
+Newtoniteration:7 | alpha:0.015625
+Force residuum:0.26511 | Contact residuum:0.4786
+--------------
+residuum alt:0.54712 | residuum neu:0.51387 | residuum LGS:1.5665e-15
+Newtoniteration:8 | alpha:0.0625
+Force residuum:0.25047 | Contact residuum:0.44869
+--------------
+residuum alt:0.51387 | residuum neu:0.45566 | residuum LGS:6.8667e-15
+Newtoniteration:9 | alpha:0.125
+Force residuum:0.23127 | Contact residuum:0.3926
+--------------
+residuum alt:0.45566 | residuum neu:0.75332 | residuum LGS:2.6201e-14
+Newtoniteration:10 | alpha:0.0078125
+Force residuum:0.48379 | Contact residuum:0.57744
+--------------
+residuum alt:0.75332 | residuum neu:2.2102 | residuum LGS:3.4836e-14
+Newtoniteration:11 | alpha:0.0078125
+Force residuum:1.9629 | Contact residuum:1.016
+--------------
+residuum alt:2.2102 | residuum neu:1209424.5341 | residuum LGS:5.6666e-12

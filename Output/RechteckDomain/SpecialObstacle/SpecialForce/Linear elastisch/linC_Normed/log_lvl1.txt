@@ -1,0 +1,36 @@
+Domain:_______Rechteck
+Obstacle:_____Special
+Force:________Special
+Material:_____steel
+Law:__________Linear elastisch
+Contact Type__:linear normiert
+Meshlevel:____1
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:2.7058 | residuum neu:0.017238 | residuum LGS:2.8041e-15
+Newtoniteration:1 | alpha:1
+Force residuum:2.4718e-15 | Contact residuum:0.017238
+--------------
+residuum alt:0.017238 | residuum neu:0.016935 | residuum LGS:1.9178e-16
+Newtoniteration:2 | alpha:0.03125
+Force residuum:2.4254e-15 | Contact residuum:0.016935
+--------------
+residuum alt:0.016935 | residuum neu:0.015999 | residuum LGS:1.916e-16
+Newtoniteration:3 | alpha:0.0625
+Force residuum:2.43e-15 | Contact residuum:0.015999
+--------------
+residuum alt:0.015999 | residuum neu:0.011904 | residuum LGS:1.6401e-16
+Newtoniteration:4 | alpha:0.5
+Force residuum:1.1454e-15 | Contact residuum:0.011904
+--------------
+residuum alt:0.011904 | residuum neu:5.0979e-16 | residuum LGS:1.2638e-16
+Newtoniteration:5 | alpha:1
+Force residuum:5.0978e-16 | Contact residuum:2.7105e-18
+--------------
+RHS < TOL after5 Newton Iterations
+Done with solving
+L2-error:0.027473
+Simulation Done
+=========================================

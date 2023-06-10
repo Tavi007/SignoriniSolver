@@ -1,0 +1,31 @@
+Domain:_______Quad
+Obstacle:_____Parabel
+Force:________Constant10
+Material:_____steel
+Law:__________Neo Hooke
+Contact Type__:linear
+Meshlevel:____3
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:1.5556 | residuum neu:0.032168 | residuum LGS:3.7561e-16
+Newtoniteration:1 | alpha:1
+Force residuum:0.032168 | Contact residuum:1.8365e-18
+--------------
+residuum alt:0.032168 | residuum neu:6.6317e-05 | residuum LGS:1.3676e-17
+Newtoniteration:2 | alpha:1
+Force residuum:6.6317e-05 | Contact residuum:1.6136e-18
+--------------
+residuum alt:6.6317e-05 | residuum neu:3.3404e-10 | residuum LGS:3.1057e-20
+Newtoniteration:3 | alpha:1
+Force residuum:3.3404e-10 | Contact residuum:1.9218e-18
+--------------
+residuum alt:3.3404e-10 | residuum neu:8.474e-15 | residuum LGS:1.9076e-25
+Newtoniteration:4 | alpha:1
+Force residuum:8.474e-15 | Contact residuum:2.2961e-18
+--------------
+RHS < TOL after4 Newton Iterations
+Done with solving
+Simulation Done
+=========================================

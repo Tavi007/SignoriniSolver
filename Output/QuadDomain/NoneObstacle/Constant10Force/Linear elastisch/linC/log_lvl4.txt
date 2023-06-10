@@ -1,0 +1,13 @@
+Domain:_______Quad
+Obstacle:_____None
+Force:________Constant10
+Material:_____steel
+Law:__________Linear elastisch
+Contact Type__:linear
+Meshlevel:____4
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+
+>> Signorini

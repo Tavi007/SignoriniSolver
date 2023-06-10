@@ -1,0 +1,45 @@
+\begin{figure}[h] 
+\centering 
+\begin{tikzpicture}[every plot/.append style={thick}] 
+\begin{axis}[ 
+label style={font=\normalsize}, 
+xlabel={Newton-Iteration}, 
+ylabel={Residuum}, 
+xmin=0, xmax=6, 
+ymode=log, 
+ymin=0, ymax=10, 
+width=0.8\textwidth, 
+height=0.6\textwidth, 
+legend pos=north east, 
+legend style={cells={align=left}}, 
+grid style=dashed, 
+] 
+\addplot[ 
+color=cyan, 
+] 
+coordinates { 
+(0, 3.82e+00)(1, 5.39e-01)(2, 2.07e-01)(3, 3.08e-04)(4, 2.90e-10)(5, 3.16e-15)}; 
+\addlegendentry{Verformung (linear)} 
+\addplot[ 
+color=orange, 
+] 
+coordinates { 
+(0, 1.00e-20)(1, 4.83e-02)(2, 6.94e-18)(3, 1.39e-17)(4, 1.04e-17)(5, 1.04e-17)}; 
+\addlegendentry{NCP (linear)} 
+\addplot[ 
+color=blue, 
+] 
+coordinates { 
+(0, 3.82e+00)(1, 5.39e-01)(2, 2.07e-01)(3, 3.08e-04)(4, 2.90e-10)(5, 2.53e-15)}; 
+\addlegendentry{Verformung (general)} 
+\addplot[ 
+color=red, 
+] 
+coordinates { 
+(0, 1.00e-20)(1, 4.83e-02)(2, 1.00e-20)(3, 6.94e-18)(4, 3.12e-17)(5, 3.47e-18)}; 
+\addlegendentry{NCP (general)} 
+\end{axis} 
+\end{tikzpicture} 
+\caption{Residuen des Stoffgesetzes 'Neo Hooke' mit Hinderniss 'Spitze' und 18 Freiheitsgraden für die Verschiebung.} 
+\label{fiq:NeoHooke_Spitze_level0} 
+\end{figure} 

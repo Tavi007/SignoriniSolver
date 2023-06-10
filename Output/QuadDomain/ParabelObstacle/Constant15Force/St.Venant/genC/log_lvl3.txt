@@ -1,0 +1,39 @@
+Domain:_______Quad
+Obstacle:_____Parabel
+Force:________Constant15
+Material:_____steel
+Law:__________St.Venant
+Contact Type__:non linear
+Meshlevel:____3
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:1.177 | residuum neu:1.0248 | residuum LGS:6.864e-16
+Newtoniteration:1 | alpha:0.25
+Force residuum:0.85013 | Contact residuum:0.57234
+--------------
+residuum alt:1.0248 | residuum neu:0.057619 | residuum LGS:2.5933e-16
+Newtoniteration:2 | alpha:1
+Force residuum:0.057619 | Contact residuum:1.3458e-06
+--------------
+residuum alt:0.057619 | residuum neu:0.0044397 | residuum LGS:8.8306e-17
+Newtoniteration:3 | alpha:1
+Force residuum:0.0044397 | Contact residuum:1.3852e-07
+--------------
+residuum alt:0.0044397 | residuum neu:0.00021406 | residuum LGS:1.5094e-17
+Newtoniteration:4 | alpha:1
+Force residuum:0.00021406 | Contact residuum:8.3494e-09
+--------------
+residuum alt:0.00021406 | residuum neu:6.7165e-07 | residuum LGS:8.2725e-19
+Newtoniteration:5 | alpha:1
+Force residuum:6.7165e-07 | Contact residuum:2.6178e-11
+--------------
+residuum alt:6.7165e-07 | residuum neu:6.6476e-12 | residuum LGS:2.6142e-21
+Newtoniteration:6 | alpha:1
+Force residuum:6.6476e-12 | Contact residuum:2.5783e-16
+--------------
+RHS < TOL after6 Newton Iterations
+Done with solving
+Simulation Done
+=========================================

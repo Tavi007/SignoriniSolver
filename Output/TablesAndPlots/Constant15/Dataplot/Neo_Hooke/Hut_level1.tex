@@ -1,0 +1,45 @@
+\begin{figure}[h] 
+\centering 
+\begin{tikzpicture}[every plot/.append style={thick}] 
+\begin{axis}[ 
+label style={font=\normalsize}, 
+xlabel={Newton-Iteration}, 
+ylabel={Residuum}, 
+xmin=0, xmax=5, 
+ymode=log, 
+ymin=0, ymax=10, 
+width=0.8\textwidth, 
+height=0.6\textwidth, 
+legend pos=north east, 
+legend style={cells={align=left}}, 
+grid style=dashed, 
+] 
+\addplot[ 
+color=cyan, 
+] 
+coordinates { 
+(0, 4.79e+00)(1, 8.18e-01)(2, 2.04e-02)(3, 4.16e-06)(4, 3.66e-13)}; 
+\addlegendentry{Verformung (linear)} 
+\addplot[ 
+color=orange, 
+] 
+coordinates { 
+(0, 4.35e+00)(1, 3.65e+00)(2, 5.20e-18)(3, 1.00e-20)(4, 2.60e-18)}; 
+\addlegendentry{NCP (linear)} 
+\addplot[ 
+color=blue, 
+] 
+coordinates { 
+(0, 4.79e+00)(1, 8.18e-01)(2, 2.04e-02)(3, 4.16e-06)(4, 3.66e-13)}; 
+\addlegendentry{Verformung (general)} 
+\addplot[ 
+color=red, 
+] 
+coordinates { 
+(0, 4.35e+00)(1, 3.65e+00)(2, 5.20e-18)(3, 1.00e-20)(4, 2.60e-18)}; 
+\addlegendentry{NCP (general)} 
+\end{axis} 
+\end{tikzpicture} 
+\caption{Residuen des Stoffgesetzes 'Neo Hooke' mit Hinderniss 'Hut' und 50 Freiheitsgraden für die Verschiebung.} 
+\label{fiq:NeoHooke_Hut_level1} 
+\end{figure} 

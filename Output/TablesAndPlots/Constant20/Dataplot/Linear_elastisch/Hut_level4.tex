@@ -1,0 +1,45 @@
+\begin{figure}[h] 
+\centering 
+\begin{tikzpicture}[every plot/.append style={thick}] 
+\begin{axis}[ 
+label style={font=\normalsize}, 
+xlabel={Newton-Iteration}, 
+ylabel={Residuum}, 
+xmin=0, xmax=6, 
+ymode=log, 
+ymin=0, ymax=10, 
+width=0.8\textwidth, 
+height=0.6\textwidth, 
+legend pos=north east, 
+legend style={cells={align=left}}, 
+grid style=dashed, 
+] 
+\addplot[ 
+color=cyan, 
+] 
+coordinates { 
+(0, 1.82e+00)(1, 2.03e-14)}; 
+\addlegendentry{Verformung (linear)} 
+\addplot[ 
+color=orange, 
+] 
+coordinates { 
+(0, 3.96e+00)(1, 9.28e-19)}; 
+\addlegendentry{NCP (linear)} 
+\addplot[ 
+color=blue, 
+] 
+coordinates { 
+(0, 2.53e+00)(1, 2.37e+00)(2, 2.08e+00)(3, 2.01e+00)(4, 1.88e-14)(5, 1.85e-14)}; 
+\addlegendentry{Verformung (general)} 
+\addplot[ 
+color=red, 
+] 
+coordinates { 
+(0, 5.80e+00)(1, 5.44e+00)(2, 4.76e+00)(3, 4.66e+00)(4, 8.05e-04)(5, 1.63e-19)}; 
+\addlegendentry{NCP (general)} 
+\end{axis} 
+\end{tikzpicture} 
+\caption{Residuen des Stoffgesetzes 'Linear elastisch' mit Hinderniss 'Hut' und 2178 Freiheitsgraden für die Verschiebung.} 
+\label{fiq:Linearelastisch_Hut_level4} 
+\end{figure} 

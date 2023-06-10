@@ -1,0 +1,45 @@
+\begin{figure}[h] 
+\centering 
+\begin{tikzpicture}[every plot/.append style={thick}] 
+\begin{axis}[ 
+label style={font=\normalsize}, 
+xlabel={Newton-Iteration}, 
+ylabel={Residuum}, 
+xmin=0, xmax=7, 
+ymode=log, 
+ymin=0, ymax=10, 
+width=0.8\textwidth, 
+height=0.6\textwidth, 
+legend pos=north east, 
+legend style={cells={align=left}}, 
+grid style=dashed, 
+] 
+\addplot[ 
+color=cyan, 
+] 
+coordinates { 
+(0, 5.73e+00)(1, 5.29e+00)(2, 2.31e+00)(3, 2.41e-01)(4, 4.53e-03)(5, 3.10e-06)(6, 1.47e-12)}; 
+\addlegendentry{Verformung (linear)} 
+\addplot[ 
+color=orange, 
+] 
+coordinates { 
+(0, 1.00e-20)(1, 1.17e-01)(2, 4.11e+00)(3, 1.73e-18)(4, 3.47e-18)(5, 1.00e-20)(6, 6.94e-18)}; 
+\addlegendentry{NCP (linear)} 
+\addplot[ 
+color=blue, 
+] 
+coordinates { 
+(0, 5.73e+00)(1, 5.29e+00)(2, 2.32e+00)(3, 1.52e-01)(4, 4.59e-04)(5, 8.63e-09)(6, 6.28e-16)}; 
+\addlegendentry{Verformung (general)} 
+\addplot[ 
+color=red, 
+] 
+coordinates { 
+(0, 1.00e-20)(1, 1.17e-01)(2, 4.44e+00)(3, 2.36e-04)(4, 5.15e-08)(5, 1.61e-13)(6, 1.47e-17)}; 
+\addlegendentry{NCP (general)} 
+\end{axis} 
+\end{tikzpicture} 
+\caption{Residuen des Stoffgesetzes 'St.Venant' mit Hinderniss 'Parabel' und 18 Freiheitsgraden für die Verschiebung.} 
+\label{fiq:St.Venant_Parabel_level0} 
+\end{figure} 

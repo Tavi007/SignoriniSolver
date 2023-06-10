@@ -1,0 +1,80 @@
+Domain:_______Rechteck
+Obstacle:_____Special
+Force:________Special
+Material:_____steel
+Law:__________Linear elastisch
+Contact Type__:non linear
+Meshlevel:____5
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:0.89151 | residuum neu:0.00017527 | residuum LGS:4.6103e-15
+Newtoniteration:1 | alpha:1
+Force residuum:5.7818e-06 | Contact residuum:0.00017517
+--------------
+residuum alt:0.00017527 | residuum neu:0.00027077 | residuum LGS:3.9039e-13
+Newtoniteration:2 | alpha:0.0078125
+Force residuum:5.6913e-06 | Contact residuum:0.00027071
+--------------
+residuum alt:0.00027077 | residuum neu:0.00025936 | residuum LGS:1.9305e-17
+Newtoniteration:3 | alpha:0.25
+Force residuum:4.357e-06 | Contact residuum:0.00025932
+--------------
+residuum alt:0.00025936 | residuum neu:0.00029811 | residuum LGS:1.566e-13
+Newtoniteration:4 | alpha:0.0078125
+Force residuum:4.2888e-06 | Contact residuum:0.00029808
+--------------
+residuum alt:0.00029811 | residuum neu:0.00026398 | residuum LGS:1.41e-17
+Newtoniteration:5 | alpha:0.0625
+Force residuum:4.0886e-06 | Contact residuum:0.00026395
+--------------
+residuum alt:0.00026398 | residuum neu:0.00029711 | residuum LGS:1.1149e-13
+Newtoniteration:6 | alpha:0.0078125
+Force residuum:4.0246e-06 | Contact residuum:0.00029708
+--------------
+residuum alt:0.00029711 | residuum neu:0.00020815 | residuum LGS:1.2917e-17
+Newtoniteration:7 | alpha:0.5
+Force residuum:2.0754e-06 | Contact residuum:0.00020814
+--------------
+residuum alt:0.00020815 | residuum neu:0.00021749 | residuum LGS:5.2106e-13
+Newtoniteration:8 | alpha:0.0078125
+Force residuum:2.0429e-06 | Contact residuum:0.00021748
+--------------
+residuum alt:0.00021749 | residuum neu:0.00020348 | residuum LGS:3.7096e-13
+Newtoniteration:9 | alpha:0.5
+Force residuum:1.0544e-06 | Contact residuum:0.00020347
+--------------
+residuum alt:0.00020348 | residuum neu:0.00020367 | residuum LGS:4.3032e-18
+Newtoniteration:10 | alpha:0.015625
+Force residuum:1.038e-06 | Contact residuum:0.00020367
+--------------
+residuum alt:0.00020367 | residuum neu:0.00019385 | residuum LGS:7.1958e-14
+Newtoniteration:11 | alpha:0.5
+Force residuum:5.1968e-07 | Contact residuum:0.00019385
+--------------
+residuum alt:0.00019385 | residuum neu:0.00015739 | residuum LGS:1.7115e-18
+Newtoniteration:12 | alpha:0.5
+Force residuum:2.6041e-07 | Contact residuum:0.00015739
+--------------
+residuum alt:0.00015739 | residuum neu:0.00010706 | residuum LGS:8.8939e-19
+Newtoniteration:13 | alpha:0.5
+Force residuum:1.3063e-07 | Contact residuum:0.00010706
+--------------
+residuum alt:0.00010706 | residuum neu:9.1206e-05 | residuum LGS:4.7341e-19
+Newtoniteration:14 | alpha:1
+Force residuum:4.2234e-09 | Contact residuum:9.1206e-05
+--------------
+residuum alt:9.1206e-05 | residuum neu:2.186e-10 | residuum LGS:1.6351e-20
+Newtoniteration:15 | alpha:1
+Force residuum:1.359e-10 | Contact residuum:1.7122e-10
+--------------
+residuum alt:2.186e-10 | residuum neu:8.7464e-13 | residuum LGS:1.208e-22
+Newtoniteration:16 | alpha:1
+Force residuum:5.6869e-13 | Contact residuum:6.6452e-13
+--------------
+RHS < TOL after16 Newton Iterations
+Done with solving
+L2-error:0.00059843
+Simulation Done
+=========================================

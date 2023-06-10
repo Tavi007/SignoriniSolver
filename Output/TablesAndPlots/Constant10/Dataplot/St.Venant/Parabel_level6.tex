@@ -1,0 +1,45 @@
+\begin{figure}[h] 
+\centering 
+\begin{tikzpicture}[every plot/.append style={thick}] 
+\begin{axis}[ 
+label style={font=\normalsize}, 
+xlabel={Newton-Iteration}, 
+ylabel={Residuum}, 
+xmin=0, xmax=5, 
+ymode=log, 
+ymin=0, ymax=10, 
+width=0.8\textwidth, 
+height=0.6\textwidth, 
+legend pos=north east, 
+legend style={cells={align=left}}, 
+grid style=dashed, 
+] 
+\addplot[ 
+color=cyan, 
+] 
+coordinates { 
+(0, 1.99e-01)(1, 4.44e-03)(2, 2.02e-05)(3, 5.96e-10)(4, 6.13e-14)}; 
+\addlegendentry{Verformung (linear)} 
+\addplot[ 
+color=orange, 
+] 
+coordinates { 
+(0, 2.73e-01)(1, 6.51e-19)(2, 8.18e-19)(3, 6.52e-19)(4, 7.15e-19)}; 
+\addlegendentry{NCP (linear)} 
+\addplot[ 
+color=blue, 
+] 
+coordinates { 
+(0, 1.99e-01)(1, 4.44e-03)(2, 2.02e-05)(3, 5.96e-10)(4, 5.98e-14)}; 
+\addlegendentry{Verformung (general)} 
+\addplot[ 
+color=red, 
+] 
+coordinates { 
+(0, 2.73e-01)(1, 5.31e-10)(2, 2.20e-12)(3, 3.65e-18)(4, 7.86e-19)}; 
+\addlegendentry{NCP (general)} 
+\end{axis} 
+\end{tikzpicture} 
+\caption{Residuen des Stoffgesetzes 'St.Venant' mit Hinderniss 'Parabel' und 33282 Freiheitsgraden für die Verschiebung.} 
+\label{fiq:St.Venant_Parabel_level6} 
+\end{figure} 

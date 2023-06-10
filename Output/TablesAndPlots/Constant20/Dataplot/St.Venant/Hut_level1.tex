@@ -1,0 +1,45 @@
+\begin{figure}[h] 
+\centering 
+\begin{tikzpicture}[every plot/.append style={thick}] 
+\begin{axis}[ 
+label style={font=\normalsize}, 
+xlabel={Newton-Iteration}, 
+ylabel={Residuum}, 
+xmin=0, xmax=7, 
+ymode=log, 
+ymin=0, ymax=10, 
+width=0.8\textwidth, 
+height=0.6\textwidth, 
+legend pos=north east, 
+legend style={cells={align=left}}, 
+grid style=dashed, 
+] 
+\addplot[ 
+color=cyan, 
+] 
+coordinates { 
+(0, 4.53e+00)(1, 2.58e+00)(2, 1.15e+00)(3, 3.45e-02)(4, 5.11e-03)(5, 2.50e-06)(6, 6.45e-13)}; 
+\addlegendentry{Verformung (linear)} 
+\addplot[ 
+color=orange, 
+] 
+coordinates { 
+(0, 2.94e+00)(1, 2.21e+00)(2, 4.91e-18)(3, 6.20e-01)(4, 1.73e-18)(5, 1.00e-20)(6, 1.73e-18)}; 
+\addlegendentry{NCP (linear)} 
+\addplot[ 
+color=blue, 
+] 
+coordinates { 
+(0, 4.53e+00)(1, 2.58e+00)(2, 1.15e+00)(3, 3.45e-02)(4, 5.11e-03)(5, 2.50e-06)(6, 6.45e-13)}; 
+\addlegendentry{Verformung (general)} 
+\addplot[ 
+color=red, 
+] 
+coordinates { 
+(0, 2.94e+00)(1, 2.21e+00)(2, 4.91e-18)(3, 6.20e-01)(4, 1.73e-18)(5, 1.00e-20)(6, 1.73e-18)}; 
+\addlegendentry{NCP (general)} 
+\end{axis} 
+\end{tikzpicture} 
+\caption{Residuen des Stoffgesetzes 'St.Venant' mit Hinderniss 'Hut' und 50 Freiheitsgraden für die Verschiebung.} 
+\label{fiq:St.Venant_Hut_level1} 
+\end{figure} 

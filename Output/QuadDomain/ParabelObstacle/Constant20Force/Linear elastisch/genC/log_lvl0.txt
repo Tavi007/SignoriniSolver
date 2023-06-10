@@ -1,0 +1,35 @@
+Domain:_______Quad
+Obstacle:_____Parabel
+Force:________Constant20
+Material:_____steel
+Law:__________Linear elastisch
+Contact Type__:non linear
+Meshlevel:____0
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:7.6376 | residuum neu:0.17284 | residuum LGS:2.1869e-15
+Newtoniteration:1 | alpha:1
+Force residuum:3.5786e-15 | Contact residuum:0.17284
+--------------
+residuum alt:0.17284 | residuum neu:0.16648 | residuum LGS:2.2127e-15
+Newtoniteration:2 | alpha:0.0625
+Force residuum:7.1962e-05 | Contact residuum:0.16648
+--------------
+residuum alt:0.16648 | residuum neu:0.028527 | residuum LGS:1.4292e-15
+Newtoniteration:3 | alpha:1
+Force residuum:0.028527 | Contact residuum:3.8395e-05
+--------------
+residuum alt:0.028527 | residuum neu:1.2357e-06 | residuum LGS:8.3759e-18
+Newtoniteration:4 | alpha:1
+Force residuum:1.2257e-06 | Contact residuum:1.5719e-07
+--------------
+residuum alt:1.2357e-06 | residuum neu:1.0572e-13 | residuum LGS:6.5205e-22
+Newtoniteration:5 | alpha:1
+Force residuum:1.0571e-13 | Contact residuum:5.0199e-16
+--------------
+RHS < TOL after5 Newton Iterations
+Done with solving
+Simulation Done
+=========================================

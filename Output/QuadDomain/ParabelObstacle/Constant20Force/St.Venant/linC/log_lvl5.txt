@@ -1,0 +1,13 @@
+Domain:_______Quad
+Obstacle:_____Parabel
+Force:________Constant20
+Material:_____steel
+Law:__________St.Venant
+Contact Type__:linear
+Meshlevel:____5
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+
+>> Signorini

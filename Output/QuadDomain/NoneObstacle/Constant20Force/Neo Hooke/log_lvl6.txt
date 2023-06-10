@@ -1,0 +1,45 @@
+Domain:____Quad
+Obstacle:__None
+Force:_____Constant20
+Material:__steel
+Law:_______Neo Hooke
+Meshlevel:_6
+Contact linear:1
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:1.3534 | residuum neu:1.2122 | residuum LGS:2.0834e-14
+Newtoniteration:1 | alpha:0.125
+Force residuum:1.2122 | Contact residuum:0
+--------------
+residuum alt:1.2122 | residuum neu:0.9641 | residuum LGS:6.0779e-15
+Newtoniteration:2 | alpha:0.25
+Force residuum:0.9641 | Contact residuum:0
+--------------
+residuum alt:0.9641 | residuum neu:0.96191 | residuum LGS:2.0067e-14
+Newtoniteration:3 | alpha:0.03125
+Force residuum:0.96191 | Contact residuum:0
+--------------
+residuum alt:0.96191 | residuum neu:1.9127 | residuum LGS:1.2368e-13
+Newtoniteration:4 | alpha:0.0078125
+Force residuum:1.9127 | Contact residuum:0
+--------------
+residuum alt:1.9127 | residuum neu:12.3803 | residuum LGS:5.1836e-13
+Newtoniteration:5 | alpha:0.0078125
+Force residuum:12.3803 | Contact residuum:0
+--------------
+residuum alt:12.3803 | residuum neu:248.3546 | residuum LGS:1.1618e-12
+Newtoniteration:6 | alpha:0.0078125
+Force residuum:248.3546 | Contact residuum:0
+--------------
+residuum alt:248.3546 | residuum neu:60995.1223 | residuum LGS:7.1476e-12
+Newtoniteration:7 | alpha:0.0078125
+Force residuum:60995.1223 | Contact residuum:0
+--------------
+residuum alt:60995.1223 | residuum neu:1852195107354.531 | residuum LGS:2.3724e-09
+Newtoniteration:8 | alpha:0.0078125
+Force residuum:1852195107354.531 | Contact residuum:0
+--------------
+Divergenz nach8 Newton Iterationen eingetreten.
+Done with solving

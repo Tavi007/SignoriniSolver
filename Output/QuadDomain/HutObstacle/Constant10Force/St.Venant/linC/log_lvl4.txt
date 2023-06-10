@@ -1,0 +1,33 @@
+Domain:____Quad
+Obstacle:__Hut
+Force:_____Constant10
+Material:__steel
+Law:_______St.Venant
+Meshlevel:_4
+Contact linear:1
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:0.94148 | residuum neu:0.07929 | residuum LGS:4.6933e-16
+Newtoniteration:1 | alpha:1
+Force residuum:0.07929 | Contact residuum:3.0905e-19
+--------------
+residuum alt:0.07929 | residuum neu:0.0031703 | residuum LGS:1.1732e-16
+Newtoniteration:2 | alpha:1
+Force residuum:0.0031703 | Contact residuum:2.1083e-19
+--------------
+residuum alt:0.0031703 | residuum neu:9.2591e-06 | residuum LGS:3.5611e-18
+Newtoniteration:3 | alpha:1
+Force residuum:9.2591e-06 | Contact residuum:1.5333e-19
+--------------
+residuum alt:9.2591e-06 | residuum neu:1.2276e-10 | residuum LGS:7.6899e-21
+Newtoniteration:4 | alpha:1
+Force residuum:1.2276e-10 | Contact residuum:1.9166e-20
+--------------
+residuum alt:1.2276e-10 | residuum neu:1.2138e-14 | residuum LGS:8.5729e-26
+Newtoniteration:5 | alpha:1
+Force residuum:1.2138e-14 | Contact residuum:7.6665e-20
+--------------
+RHS < TOL after5 Newton Iterations
+Done with solving

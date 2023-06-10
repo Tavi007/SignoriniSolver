@@ -1,0 +1,37 @@
+Domain:____Quad
+Obstacle:__Hut
+Force:_____Constant20
+Material:__steel
+Law:_______St.Venant
+Meshlevel:_4
+Contact linear:0
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:1.8582 | residuum neu:1.8276 | residuum LGS:1.2536e-14
+Newtoniteration:1 | alpha:0.015625
+Force residuum:1.5671 | Contact residuum:0.94043
+--------------
+residuum alt:1.8276 | residuum neu:1.948 | residuum LGS:1.0158e-14
+Newtoniteration:2 | alpha:0.0078125
+Force residuum:1.5429 | Contact residuum:1.1891
+--------------
+residuum alt:1.948 | residuum neu:1.7489 | residuum LGS:7.912e-15
+Newtoniteration:3 | alpha:0.125
+Force residuum:1.402 | Contact residuum:1.0455
+--------------
+residuum alt:1.7489 | residuum neu:1.6616 | residuum LGS:9.2615e-15
+Newtoniteration:4 | alpha:0.0625
+Force residuum:1.3418 | Contact residuum:0.98005
+--------------
+residuum alt:1.6616 | residuum neu:27911.458 | residuum LGS:7.8647e-13
+Newtoniteration:5 | alpha:0.0078125
+Force residuum:27911.455 | Contact residuum:13.0942
+--------------
+residuum alt:27911.458 | residuum neu:26058497070789.64 | residuum LGS:9.3677e-10
+Newtoniteration:6 | alpha:0.0078125
+Force residuum:26058497070789.64 | Contact residuum:30037.9082
+--------------
+Divergenz nach6 Newton Iterationen eingetreten.
+Done with solving

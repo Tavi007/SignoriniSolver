@@ -1,0 +1,12 @@
+function solver_log(set_A_local, set_I_local, residuum_force, residuum_contact)
+    %disp('LGS-Solved')
+    %disp('more Information are WIP')
+    %disp('------------------------')
+    %disp('new Contact values')
+    %disp('Active Set:')
+    %disp(set_A_local)
+    %disp('Inactive Set:')
+    %disp(set_I_local)
+    disp(strcat('Force residuum: ', num2str(residuum_force),' | Contact residuum: ', num2str(residuum_contact) ))
+    disp('--------------')
+end

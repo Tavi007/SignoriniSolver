@@ -1,0 +1,39 @@
+Domain:_______Quad
+Obstacle:_____Spitze
+Force:________Constant10
+Material:_____steel
+Law:__________St.Venant
+Contact Type__:linear
+Meshlevel:____2
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:1.4687 | residuum neu:1.105 | residuum LGS:1.5495e-15
+Newtoniteration:1 | alpha:0.25
+Force residuum:0.99449 | Contact residuum:0.4817
+--------------
+residuum alt:1.105 | residuum neu:1.0641 | residuum LGS:1.4365e-15
+Newtoniteration:2 | alpha:0.0625
+Force residuum:0.93272 | Contact residuum:0.51211
+--------------
+residuum alt:1.0641 | residuum neu:0.061715 | residuum LGS:2.5306e-16
+Newtoniteration:3 | alpha:1
+Force residuum:0.061715 | Contact residuum:1.9516e-18
+--------------
+residuum alt:0.061715 | residuum neu:0.00048762 | residuum LGS:2.1259e-17
+Newtoniteration:4 | alpha:1
+Force residuum:0.00048762 | Contact residuum:1.0842e-18
+--------------
+residuum alt:0.00048762 | residuum neu:5.2049e-08 | residuum LGS:2.2607e-19
+Newtoniteration:5 | alpha:1
+Force residuum:5.2049e-08 | Contact residuum:8.6736e-19
+--------------
+residuum alt:5.2049e-08 | residuum neu:3.1443e-15 | residuum LGS:2.2913e-23
+Newtoniteration:6 | alpha:1
+Force residuum:3.1443e-15 | Contact residuum:1.5179e-18
+--------------
+RHS < TOL after6 Newton Iterations
+Done with solving
+Simulation Done
+=========================================

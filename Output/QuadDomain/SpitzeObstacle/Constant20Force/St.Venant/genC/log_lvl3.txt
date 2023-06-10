@@ -1,0 +1,43 @@
+Domain:_______Quad
+Obstacle:_____Spitze
+Force:________Constant20
+Material:_____steel
+Law:__________St.Venant
+Contact Type__:non linear
+Meshlevel:____3
+Load Problem
+Preprocessing done.
+================================
+Start solver.
+residuum alt:1.7758 | residuum neu:1.5028 | residuum LGS:2.05e-15
+Newtoniteration:1 | alpha:0.5
+Force residuum:1.0375 | Contact residuum:1.0872
+--------------
+residuum alt:1.5028 | residuum neu:1.0085 | residuum LGS:6.9932e-16
+Newtoniteration:2 | alpha:1
+Force residuum:0.48197 | Contact residuum:0.88582
+--------------
+residuum alt:1.0085 | residuum neu:0.057251 | residuum LGS:2.3217e-16
+Newtoniteration:3 | alpha:1
+Force residuum:0.057251 | Contact residuum:3.8532e-18
+--------------
+residuum alt:0.057251 | residuum neu:0.0030013 | residuum LGS:1.982e-17
+Newtoniteration:4 | alpha:1
+Force residuum:0.0030013 | Contact residuum:3.6094e-18
+--------------
+residuum alt:0.0030013 | residuum neu:3.1082e-05 | residuum LGS:1.8643e-18
+Newtoniteration:5 | alpha:1
+Force residuum:3.1082e-05 | Contact residuum:4.527e-18
+--------------
+residuum alt:3.1082e-05 | residuum neu:7.8861e-09 | residuum LGS:4.3987e-20
+Newtoniteration:6 | alpha:1
+Force residuum:7.8861e-09 | Contact residuum:2.6823e-18
+--------------
+residuum alt:7.8861e-09 | residuum neu:1.4613e-14 | residuum LGS:1.4505e-23
+Newtoniteration:7 | alpha:1
+Force residuum:1.4613e-14 | Contact residuum:4.4782e-18
+--------------
+RHS < TOL after7 Newton Iterations
+Done with solving
+Simulation Done
+=========================================
